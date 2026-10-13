@@ -1,0 +1,7 @@
+{
+  "package": "justified-layout",
+  "version": "4.1.0",
+  "url": "https://registry.npmjs.org/justified-layout/-/justified-layout-4.1.0.tgz",
+  "integrity": "sha512-M5FimNMXgiOYerVRGsXZ2YK9YNCaTtwtYp7Hb2308U1Q9TXXHx5G0p08mcVR5O53qf8bWY4NJcPBxE6zuayXSg==",
+  "bundle": "esbuild 0.28.1, iife, minified"
+}
