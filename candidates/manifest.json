@@ -1,294 +1,65 @@
 {
-  "version": 2,
+  "version": 3,
+  "round": 3,
   "sections": [
-    {
-      "id": "outros",
-      "key": "4",
-      "label": "Outros",
-      "tiles": [
-        {
-          "key": "A4",
-          "label": "Flood",
-          "src": "candidates/a/end-screen-a.mp4",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/a/end-screen-a.png"
-        },
-        {
-          "key": "A4α",
-          "label": "Transparent",
-          "src": "candidates/a/end-screen-a-transparent.webm",
-          "w": 1080,
-          "h": 1920,
-          "alpha": "dark",
-          "poster": "candidates/a/end-screen-a-transparent.png"
-        },
-        {
-          "key": "A4-apart",
-          "label": "Apart",
-          "src": "candidates/a/end-screen-a-apart.mp4",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/a/end-screen-a-apart.png"
-        },
-        {
-          "key": "B4",
-          "label": "Flood",
-          "src": "candidates/b/end-screen-b.mp4",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/b/end-screen-b.png"
-        },
-        {
-          "key": "B4α",
-          "label": "Transparent",
-          "src": "candidates/b/end-screen-b-transparent.webm",
-          "w": 1080,
-          "h": 1920,
-          "alpha": "dark",
-          "poster": "candidates/b/end-screen-b-transparent.png"
-        },
-        {
-          "key": "B4-apart",
-          "label": "Apart",
-          "src": "candidates/b/end-screen-b-apart.mp4",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/b/end-screen-b-apart.png"
-        }
-      ]
-    },
-    {
-      "id": "edge",
-      "key": "C",
-      "label": "C · Around video",
-      "tiles": [
-        {
-          "key": "C4",
-          "label": "Outro",
-          "src": "candidates/c/end-screen-c.mp4",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/c/end-screen-c.png"
-        },
-        {
-          "key": "C4α",
-          "label": "Transparent",
-          "src": "candidates/c/end-screen-c-transparent.webm",
-          "w": 1080,
-          "h": 1920,
-          "alpha": "dark",
-          "poster": "candidates/c/end-screen-c-transparent.png"
-        },
-        {
-          "key": "C-vertical",
-          "label": "Vertical",
-          "src": "candidates/c/edge-overlay-c-vertical.webm",
-          "w": 1080,
-          "h": 1920,
-          "alpha": "dark",
-          "poster": "candidates/c/edge-overlay-c-vertical.png"
-        },
-        {
-          "key": "C-landscape",
-          "label": "Landscape",
-          "src": "candidates/c/edge-overlay-c-landscape.webm",
-          "w": 1920,
-          "h": 1080,
-          "alpha": "dark",
-          "poster": "candidates/c/edge-overlay-c-landscape.png"
-        },
-        {
-          "key": "C6",
-          "label": "Example",
-          "src": "candidates/c/example-watermarked-c.mp4",
-          "w": 1080,
-          "h": 1920
-        }
-      ]
-    },
-    {
-      "id": "badges",
-      "key": "5",
-      "label": "Badges",
-      "tiles": [
-        {
-          "key": "A5-CO",
-          "label": "Colour",
-          "src": "candidates/a/badge-a-colour-opaque-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/a/badge-a-colour-opaque.png"
-        },
-        {
-          "key": "A5-CT",
-          "label": "Colour · clear",
-          "src": "candidates/a/badge-a-colour-transparent-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/a/badge-a-colour-transparent.png"
-        },
-        {
-          "key": "A5-GO",
-          "label": "Grey",
-          "src": "candidates/a/badge-a-grey-opaque-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/a/badge-a-grey-opaque.png"
-        },
-        {
-          "key": "A5-GT",
-          "label": "Grey · clear",
-          "src": "candidates/a/badge-a-grey-transparent-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/a/badge-a-grey-transparent.png"
-        },
-        {
-          "key": "B5-CO",
-          "label": "Colour",
-          "src": "candidates/b/badge-b-colour-opaque-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/b/badge-b-colour-opaque.png"
-        },
-        {
-          "key": "B5-CT",
-          "label": "Colour · clear",
-          "src": "candidates/b/badge-b-colour-transparent-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/b/badge-b-colour-transparent.png"
-        },
-        {
-          "key": "B5-GO",
-          "label": "Grey",
-          "src": "candidates/b/badge-b-grey-opaque-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/b/badge-b-grey-opaque.png"
-        },
-        {
-          "key": "B5-GT",
-          "label": "Grey · clear",
-          "src": "candidates/b/badge-b-grey-transparent-animated.webm",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark",
-          "poster": "candidates/b/badge-b-grey-transparent.png"
-        }
-      ]
-    },
-    {
-      "id": "badge-stills",
-      "key": "5s",
-      "label": "Badge stills",
-      "tiles": [
-        {
-          "key": "A5s-CO",
-          "label": "Colour",
-          "src": "candidates/a/badge-a-colour-opaque.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "A5s-CT",
-          "label": "Colour · clear",
-          "src": "candidates/a/badge-a-colour-transparent.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "A5s-GO",
-          "label": "Grey",
-          "src": "candidates/a/badge-a-grey-opaque.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "A5s-GT",
-          "label": "Grey · clear",
-          "src": "candidates/a/badge-a-grey-transparent.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "B5s-CO",
-          "label": "Colour",
-          "src": "candidates/b/badge-b-colour-opaque.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "B5s-CT",
-          "label": "Colour · clear",
-          "src": "candidates/b/badge-b-colour-transparent.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "B5s-GO",
-          "label": "Grey",
-          "src": "candidates/b/badge-b-grey-opaque.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        },
-        {
-          "key": "B5s-GT",
-          "label": "Grey · clear",
-          "src": "candidates/b/badge-b-grey-transparent.png",
-          "w": 900,
-          "h": 420,
-          "alpha": "dark"
-        }
-      ]
-    },
     {
       "id": "thumbnails",
       "key": "1",
       "label": "Thumbnails",
+      "compare": {
+        "cols": [
+          "A",
+          "B"
+        ],
+        "rows": [
+          "Clear",
+          "Full"
+        ]
+      },
       "tiles": [
         {
           "key": "A1",
-          "label": "Clear",
+          "label": "",
           "src": "candidates/a/thumbnail-a.png",
           "w": 1920,
-          "h": 1080
+          "h": 1080,
+          "cell": [
+            0,
+            0
+          ]
         },
         {
           "key": "A1F",
-          "label": "Full",
+          "label": "",
           "src": "candidates/a/thumbnail-a-full.png",
           "w": 1920,
-          "h": 1080
+          "h": 1080,
+          "cell": [
+            1,
+            0
+          ]
         },
         {
           "key": "B1",
           "label": "Make it in",
           "src": "candidates/b/thumbnail-b.png",
           "w": 1920,
-          "h": 1080
+          "h": 1080,
+          "cell": [
+            0,
+            1
+          ]
         },
         {
           "key": "B1F",
-          "label": "Make it in · full",
+          "label": "Make it in",
           "src": "candidates/b/thumbnail-b-full.png",
           "w": 1920,
-          "h": 1080
+          "h": 1080,
+          "cell": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -296,34 +67,60 @@
       "id": "brand",
       "key": "2",
       "label": "Brand images",
+      "compare": {
+        "cols": [
+          "A",
+          "B"
+        ],
+        "rows": [
+          "Clear",
+          "Full"
+        ]
+      },
       "tiles": [
         {
           "key": "A2",
-          "label": "Clear",
+          "label": "",
           "src": "candidates/a/square-logo-a.png",
           "w": 1024,
-          "h": 1024
+          "h": 1024,
+          "cell": [
+            0,
+            0
+          ]
         },
         {
           "key": "A2F",
-          "label": "Full",
+          "label": "",
           "src": "candidates/a/square-logo-a-full.png",
           "w": 1024,
-          "h": 1024
+          "h": 1024,
+          "cell": [
+            1,
+            0
+          ]
         },
         {
           "key": "B2",
-          "label": "Clear",
+          "label": "",
           "src": "candidates/b/square-logo-b.png",
           "w": 1024,
-          "h": 1024
+          "h": 1024,
+          "cell": [
+            0,
+            1
+          ]
         },
         {
           "key": "B2F",
-          "label": "Full",
+          "label": "",
           "src": "candidates/b/square-logo-b-full.png",
           "w": 1024,
-          "h": 1024
+          "h": 1024,
+          "cell": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -331,20 +128,157 @@
       "id": "banners",
       "key": "3",
       "label": "Banners",
+      "compare": {
+        "cols": [
+          "A",
+          "B"
+        ]
+      },
       "tiles": [
         {
           "key": "A3",
           "label": "",
           "src": "candidates/a/store-banner-a.png",
           "w": 1920,
-          "h": 640
+          "h": 640,
+          "cell": [
+            0,
+            0
+          ]
         },
         {
           "key": "B3",
           "label": "",
           "src": "candidates/b/store-banner-b.png",
           "w": 1920,
-          "h": 640
+          "h": 640,
+          "cell": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "badges",
+      "key": "5",
+      "label": "Badges",
+      "compare": {
+        "cols": [
+          "A",
+          "B"
+        ],
+        "rows": [
+          "Colour",
+          "Colour · clear",
+          "Grey",
+          "Grey · clear"
+        ]
+      },
+      "tiles": [
+        {
+          "key": "A5-CO",
+          "label": "",
+          "src": "candidates/a/badge-a-colour-opaque-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            0,
+            0
+          ],
+          "alpha": "dark",
+          "poster": "candidates/a/badge-a-colour-opaque.png"
+        },
+        {
+          "key": "A5-CT",
+          "label": "",
+          "src": "candidates/a/badge-a-colour-transparent-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            1,
+            0
+          ],
+          "alpha": "dark",
+          "poster": "candidates/a/badge-a-colour-transparent.png"
+        },
+        {
+          "key": "A5-GO",
+          "label": "",
+          "src": "candidates/a/badge-a-grey-opaque-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            2,
+            0
+          ],
+          "alpha": "dark",
+          "poster": "candidates/a/badge-a-grey-opaque.png"
+        },
+        {
+          "key": "A5-GT",
+          "label": "",
+          "src": "candidates/a/badge-a-grey-transparent-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            3,
+            0
+          ],
+          "alpha": "dark",
+          "poster": "candidates/a/badge-a-grey-transparent.png"
+        },
+        {
+          "key": "B5-CO",
+          "label": "",
+          "src": "candidates/b/badge-b-colour-opaque-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            0,
+            1
+          ],
+          "alpha": "dark",
+          "poster": "candidates/b/badge-b-colour-opaque.png"
+        },
+        {
+          "key": "B5-CT",
+          "label": "",
+          "src": "candidates/b/badge-b-colour-transparent-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            1,
+            1
+          ],
+          "alpha": "dark",
+          "poster": "candidates/b/badge-b-colour-transparent.png"
+        },
+        {
+          "key": "B5-GO",
+          "label": "",
+          "src": "candidates/b/badge-b-grey-opaque-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            2,
+            1
+          ],
+          "alpha": "dark",
+          "poster": "candidates/b/badge-b-grey-opaque.png"
+        },
+        {
+          "key": "B5-GT",
+          "label": "",
+          "src": "candidates/b/badge-b-grey-transparent-animated.webm",
+          "w": 900,
+          "h": 420,
+          "cell": [
+            3,
+            1
+          ],
+          "alpha": "dark",
+          "poster": "candidates/b/badge-b-grey-transparent.png"
         }
       ]
     },
@@ -352,43 +286,105 @@
       "id": "examples",
       "key": "6",
       "label": "Examples",
+      "compare": {
+        "cols": [
+          "A",
+          "B"
+        ]
+      },
       "tiles": [
         {
           "key": "A6",
           "label": "",
           "src": "candidates/a/example-watermarked-a.mp4",
           "w": 1080,
-          "h": 1920
+          "h": 1920,
+          "cell": [
+            0,
+            0
+          ]
         },
         {
           "key": "B6",
           "label": "",
           "src": "candidates/b/example-watermarked-b.mp4",
           "w": 1080,
-          "h": 1920
+          "h": 1920,
+          "cell": [
+            0,
+            1
+          ]
         }
       ]
     },
     {
       "id": "logo-motion",
       "key": "L",
-      "label": "Logo motion",
+      "label": "Logo reveal",
+      "compare": {
+        "cols": [
+          "White",
+          "Black"
+        ]
+      },
       "tiles": [
         {
           "key": "L-white",
-          "label": "White",
+          "label": "",
           "src": "candidates/shared/logo-animation-white.webm",
           "w": 1920,
           "h": 1080,
+          "cell": [
+            0,
+            0
+          ],
           "alpha": "dark"
         },
         {
           "key": "L-black",
-          "label": "Black",
+          "label": "",
           "src": "candidates/shared/logo-animation-black.webm",
           "w": 1920,
           "h": 1080,
+          "cell": [
+            0,
+            1
+          ],
           "alpha": "light"
+        }
+      ]
+    },
+    {
+      "id": "moving",
+      "key": "M",
+      "label": "Moving badge",
+      "tiles": [
+        {
+          "key": "M-07",
+          "label": "Fade",
+          "src": "candidates/moving/M-07.svg",
+          "w": 1920,
+          "h": 1080,
+          "poster": "candidates/moving/M-07-poster.svg",
+          "alpha": "dark"
+        },
+        {
+          "key": "M-08",
+          "label": "Fade",
+          "src": "candidates/moving/M-08.svg",
+          "w": 1920,
+          "h": 1080,
+          "poster": "candidates/moving/M-08-poster.svg",
+          "alpha": "dark"
+        },
+        {
+          "key": "M-12",
+          "label": "Fade",
+          "src": "candidates/moving/M-12.svg",
+          "w": 1080,
+          "h": 1080,
+          "poster": "candidates/moving/M-12-poster.svg",
+          "alpha": "dark"
         }
       ]
     },
@@ -399,7 +395,7 @@
       "tiles": [
         {
           "key": "W-o-spot-now",
-          "label": "O · now",
+          "label": "O",
           "src": "candidates/spots/o-spot-now.png",
           "w": 500,
           "h": 450,
@@ -423,7 +419,7 @@
         },
         {
           "key": "W-t-spot-now",
-          "label": "T · now",
+          "label": "T",
           "src": "candidates/spots/t-spot-now.png",
           "w": 480,
           "h": 360,
@@ -448,178 +444,61 @@
       ]
     },
     {
-      "id": "revolve",
-      "key": "R",
-      "label": "Revolve → bullets",
+      "id": "screen",
+      "key": "C",
+      "label": "Screen recordings",
       "tiles": [
         {
-          "key": "revolve-word-right",
-          "label": "word · right",
-          "src": "candidates/revolve/revolve-word-right.svg",
-          "w": 670.6358448987556,
-          "h": 266.45850906182574,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-word-right-poster.svg"
-        },
-        {
-          "key": "revolve-word-left",
-          "label": "word · left",
-          "src": "candidates/revolve/revolve-word-left.svg",
-          "w": 670.6358448987556,
-          "h": 266.45850906182574,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-word-left-poster.svg"
-        },
-        {
-          "key": "revolve-row-right",
-          "label": "row · right",
-          "src": "candidates/revolve/revolve-row-right.svg",
-          "w": 669.96,
-          "h": 252.15726785277388,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-row-right-poster.svg"
-        },
-        {
-          "key": "revolve-row-left",
-          "label": "row · left",
-          "src": "candidates/revolve/revolve-row-left.svg",
-          "w": 669.96,
-          "h": 252.15726785277388,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-row-left-poster.svg"
-        },
-        {
-          "key": "revolve-letter-right",
-          "label": "letter · right",
-          "src": "candidates/revolve/revolve-letter-right.svg",
-          "w": 669.96,
-          "h": 242.46,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-letter-right-poster.svg"
-        },
-        {
-          "key": "revolve-letter-left",
-          "label": "letter · left",
-          "src": "candidates/revolve/revolve-letter-left.svg",
-          "w": 669.96,
-          "h": 242.46,
-          "alpha": "dark",
-          "poster": "candidates/revolve/revolve-letter-left-poster.svg"
-        }
-      ]
-    },
-    {
-      "id": "moving",
-      "key": "M",
-      "label": "Moving badge",
-      "tiles": [
-        {
-          "key": "M-01",
-          "label": "Glide",
-          "src": "candidates/moving/M-01.svg",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/moving/M-01-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-02",
-          "label": "Glide",
-          "src": "candidates/moving/M-02.svg",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/moving/M-02-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-03",
-          "label": "Hop",
-          "src": "candidates/moving/M-03.svg",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/moving/M-03-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-04",
-          "label": "Hop",
-          "src": "candidates/moving/M-04.svg",
-          "w": 1080,
-          "h": 1920,
-          "poster": "candidates/moving/M-04-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-05",
-          "label": "Cut",
-          "src": "candidates/moving/M-05.svg",
-          "w": 1080,
-          "h": 1080,
-          "poster": "candidates/moving/M-05-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-06",
-          "label": "Cut",
-          "src": "candidates/moving/M-06.svg",
-          "w": 1080,
-          "h": 1080,
-          "poster": "candidates/moving/M-06-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-07",
-          "label": "Fade",
-          "src": "candidates/moving/M-07.svg",
+          "key": "C-landscape",
+          "label": "Landscape",
+          "src": "candidates/c/edge-overlay-c-landscape.webm",
           "w": 1920,
           "h": 1080,
-          "poster": "candidates/moving/M-07-poster.svg",
-          "alpha": "dark"
+          "alpha": "dark",
+          "poster": "candidates/c/edge-overlay-c-landscape.png"
         },
         {
-          "key": "M-08",
-          "label": "Fade",
-          "src": "candidates/moving/M-08.svg",
+          "key": "C4-landscape",
+          "label": "End",
+          "src": "candidates/c/end-screen-c-landscape.mp4",
           "w": 1920,
           "h": 1080,
-          "poster": "candidates/moving/M-08-poster.svg",
-          "alpha": "dark"
+          "poster": "candidates/c/end-screen-c-landscape.png"
         },
         {
-          "key": "M-09",
-          "label": "Glide",
-          "src": "candidates/moving/M-09.svg",
+          "key": "C4α-landscape",
+          "label": "End · transparent",
+          "src": "candidates/c/end-screen-c-landscape-transparent.webm",
           "w": 1920,
           "h": 1080,
-          "poster": "candidates/moving/M-09-poster.svg",
-          "alpha": "dark"
+          "alpha": "dark",
+          "poster": "candidates/c/end-screen-c-landscape-transparent.png"
         },
         {
-          "key": "M-10",
-          "label": "Hop",
-          "src": "candidates/moving/M-10.svg",
-          "w": 1080,
-          "h": 1080,
-          "poster": "candidates/moving/M-10-poster.svg",
-          "alpha": "dark"
-        },
-        {
-          "key": "M-11",
-          "label": "Cut",
-          "src": "candidates/moving/M-11.svg",
+          "key": "C-vertical",
+          "label": "Phone",
+          "src": "candidates/c/edge-overlay-c-vertical.webm",
           "w": 1080,
           "h": 1920,
-          "poster": "candidates/moving/M-11-poster.svg",
-          "alpha": "dark"
+          "alpha": "dark",
+          "poster": "candidates/c/edge-overlay-c-vertical.png"
         },
         {
-          "key": "M-12",
-          "label": "Fade",
-          "src": "candidates/moving/M-12.svg",
+          "key": "C4",
+          "label": "Phone end",
+          "src": "candidates/c/end-screen-c.mp4",
           "w": 1080,
-          "h": 1080,
-          "poster": "candidates/moving/M-12-poster.svg",
-          "alpha": "dark"
+          "h": 1920,
+          "poster": "candidates/c/end-screen-c.png"
+        },
+        {
+          "key": "C4α",
+          "label": "Phone end · transparent",
+          "src": "candidates/c/end-screen-c-transparent.webm",
+          "w": 1080,
+          "h": 1920,
+          "alpha": "dark",
+          "poster": "candidates/c/end-screen-c-transparent.png"
         }
       ]
     }
